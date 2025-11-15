@@ -1,0 +1,12 @@
+# Arquivos do Python
+__pycache__/
+
+# Chaves de acesso
+/segurança/
+*.env
+
+# Banco de Dados
+/banco/
+
+# Logs
+*.log
