@@ -2,11 +2,23 @@
 __pycache__/
 
 # Chaves de acesso
-/segurança/
+# Ignora tudo em /segurança/
+segurança/*
+# Mas NÃO ignore o .gitkeep
+!segurança/.gitkeep
+# Ignora qualquer arquivo .env em qualquer lugar
 *.env
 
 # Banco de Dados
-/banco/
+# Ignora tudo em /banco/
+banco/*
+# Mas NÃO ignore o .gitkeep
+!banco/.gitkeep
 
 # Logs
+# Ignora tudo em /logs/
+logs/*
+# Mas NÃO ignore o .gitkeep
+!logs/.gitkeep
+# Ignora qualquer arquivo .log em qualquer lugar
 *.log
