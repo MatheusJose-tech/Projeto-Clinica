@@ -17,7 +17,7 @@ Este software possui um duplo propósito:
 
 A interface principal do aplicativo, onde o funcionário pode ver o status de todas as máquinas (com cores) e confirmar uma troca, podendo inserir uma data manual caso tenha esquecido de registrar no dia.
 
-`![Dashboard do Monitor da Clínica](dashboard.png)`
+`![Dashboard do Monitor da Clínica](painel.png)`
 
 -----
 
