@@ -105,10 +105,12 @@ def atualizar_aplicativo(janela_mestre):
             data_ultima_troca = datetime.datetime.strptime(data_de_troca, "%Y-%m-%d").date()
             data_vencimento = data_ultima_troca + relativedelta(months=+6)
             data_venc_formatado = data_vencimento.strftime("%d/%m/%Y")
-
+             data_ultima_troca_formatada = data_ultima_troca.strftime("%d/%m/%Y")
+    
+            
             dias_restantes = (data_vencimento - data_hoje).days
 
-            informacoes_maquina = f"{id_maquina}  |  Última Troca: {data_ultima_troca}  |  Vencimento: {data_venc_formatado}"
+            informacoes_maquina = f"{id_maquina}  |  Última Troca: {data_ultima_troca_formatada}  |  Vencimento: {data_venc_formatado}"
 
             janela_mestre.insert(tk.END, informacoes_maquina)
 
