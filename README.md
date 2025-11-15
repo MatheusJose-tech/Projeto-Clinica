@@ -127,7 +127,7 @@ Embora o projeto esteja funcional, algumas melhorias futuras poderiam ser:
 
 ## 📄 Licença
 
-O código deste projeto está licenciado sob os termos do arquivo **[LICENSE.md](LICENSE.md)**.
+O código deste projeto está licenciado sob os termos do arquivo **[LICENSE.md](LICENSE)**.
 
 -----
 
