@@ -93,15 +93,15 @@ DESTINATARIO="email1@clinica.com, email2@clinica.com"
 
 ### 3\. Instalando a Automação (1 clique)
 
-Para fazer o app iniciar sozinho junto com o Windows, basta dar um clique duplo no arquivo que estará dentro da pasta `instalação/`:
+Para fazer o app iniciar sozinho junto com o Windows, basta dar um clique duplo no arquivo que estará dentro da pasta `instalacao/`:
 
-`instalar_automação.bat`
+`instalar_automacao.bat`
 
 Isso irá copiar um atalho para a pasta de inicialização do Windows. O programa iniciará automaticamente na próxima vez que o computador ligar.
 
-Caso não queira mais usar a automação, basta ir na mesma pasta `instalação/` e clicar em: 
+Caso não queira mais usar a automação, basta ir na mesma pasta `instalacao/` e clicar em: 
  
-`desinstalar_automação.bat`
+`desinstalar_automacao.bat`
 
 Isso irá remover o atalho da pasta de inicialização do Windows.
 
