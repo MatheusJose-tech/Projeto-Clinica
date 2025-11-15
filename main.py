@@ -22,7 +22,7 @@ logging.basicConfig(
     datefmt=date_format,            
     handlers=[
         logging.FileHandler(log_file_path), # Escreve no arquivo 'clinica.log'
-        # logging.StreamHandler(sys.stdout)   # Console
+        logging.StreamHandler(sys.stdout)   # Console
     ]
 )
 
