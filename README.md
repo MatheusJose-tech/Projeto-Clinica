@@ -109,7 +109,7 @@ Isso irá remover o atalho da pasta de inicialização do Windows.
 
 Se não quiser instalar, você pode rodar o programa a qualquer momento.
 
-**Não clique** no `main.py`. Em vez disso, clique no **`Lançar_Painel.bat`**.
+**Não clique** no `main.py`. Em vez disso, clique no **`Lancar_Painel.bat`**.
 
 Isso iniciará o `main.py` usando o `pythonw.exe` (modo silencioso), que irá abrir por momento um console preto, porém poderá fechar o console sem problemas.
 
